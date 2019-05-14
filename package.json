@@ -1,0 +1,27 @@
+{
+  "name": "node-app-twilio-run",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run --env --load-local-env",
+    "dev": "twilio-run  --env --inspect --live --load-local-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryan-palmer/node-app-twilio-run.git"
+  },
+  "keywords": [],
+  "author": "Bryan Palmer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bryan-palmer/node-app-twilio-run/issues"
+  },
+  "homepage": "https://github.com/bryan-palmer/node-app-twilio-run#readme",
+  "devDependencies": {
+    "twilio": "3.21.0",
+    "twilio-run": "^1.0.0-beta.4"
+  }
+}
